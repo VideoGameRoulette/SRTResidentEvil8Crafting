@@ -49,6 +49,13 @@ function SetCraftItems(item) {
 	let GunPowderStack = document.getElementById("GunPowderStack");
 	let RustedScrapStack = document.getElementById("RustedScrapStack");
 	let MetalScrapStack = document.getElementById("MetalScrapStack");
+
+	//RESET OLD DATA
+	HerbStack.innerHTML = 0;
+	ChemFluidStack.innerHTML = 0;
+	GunPowderStack.innerHTML = 0;
+	RustedScrapStack.innerHTML = 0;
+	MetalScrapStack.innerHTML = 0;
 	
 	switch (item.ItemName) {
 		case "Herb":
