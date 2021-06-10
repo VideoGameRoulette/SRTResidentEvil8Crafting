@@ -1,6 +1,6 @@
 const JSON_ADDRESS = "127.0.0.1";
 const JSON_PORT = 7190;
-const POLLING_RATE = 10000;
+const POLLING_RATE = 333;
 
 const JSON_ENDPOINT = `http://${JSON_ADDRESS}:${JSON_PORT}/`;
 
